@@ -1,7 +1,8 @@
 export const user = {
-  "firstName": "Jarvis",
-  "lastName": "Mueller",
-  "email": "Avis_Schuster@yahoo.com",
-  "password":"b8LgUFllmcUHFWk",
+  "firstName": "Providenci",
+  "lastName": "Nienow",
+  "email": "typeVanessa60@yahoo.com",
+  "password":"typeDrcfuoHeG977T7Q",
   "body": "Fixtures are a great way to mock data for responses to routes"
 }
+
