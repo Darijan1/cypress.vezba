@@ -1,0 +1,24 @@
+name: swaglabs test
+
+on:
+    workflow_dispatch:
+
+jobs: 
+    cypress:
+        name: run swaglabs test
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: checkout
+              uses: actions/checkout@v2
+          
+            - name: setup node.js
+              uses: actions/setup-node@v2
+              with:
+                node-version: "16"
+          
+            - name: install dependencies
+              run: npm install 
+
+            - name: run tests
+              run: npm run cy:swag
